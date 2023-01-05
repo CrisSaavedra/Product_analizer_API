@@ -1,0 +1,25 @@
+{
+  "name": "pregunta-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "http://localhost:9090"
+  },
+  "keywords": [],
+  "author": "Cristian Saavedra C.",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "got": "^7.1.0",
+    "node-fetch": "^3.2.10"
+  }
+}
